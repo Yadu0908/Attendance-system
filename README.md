@@ -70,7 +70,9 @@ src/
   npm run dev
 ```
 
-Mandatory AI Usage Report
+---
+
+## Mandatory AI Usage Report
 
 AI TOOL USED: AI Studio
 
