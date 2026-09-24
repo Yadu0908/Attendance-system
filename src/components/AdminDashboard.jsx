@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import { useTheme } from "../context/ThemeContext";
 import { calculateSubjectAttendance, subjects } from "../data/mockData";
 

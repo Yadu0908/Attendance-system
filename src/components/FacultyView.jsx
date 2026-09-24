@@ -1,4 +1,3 @@
-import React from "react";
 import { subjects } from "../data/mockData";
 import { useTheme } from "../context/ThemeContext";
 
