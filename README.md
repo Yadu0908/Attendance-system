@@ -6,6 +6,21 @@ Pre-Drive Product Engineering Assignment.
 
 A comprehensive, modern web application designed for educational institutions to manage student attendance, track low-attendance defaulters automatically, and provide dedicated portals for Faculty, Administrators, and Students.
 
+## Strucutre
+
+src/
+├── context/
+│ └── ThemeContext.jsx # useContext for Theme (Dark/Light)
+├── data/
+│ └── mockData.js # LocalStorage Caching helper + Initial Data
+├── components/
+│ ├── Navbar.jsx # Navigation, Role switcher & Theme Toggle
+│ ├── FacultyView.jsx # Uses useMemo for rendering student lists
+│ ├── AdminDashboard.jsx # Uses useMemo for expensive defaulter analytics
+│ └── StudentView.jsx # Personal student breakdown
+├── App.jsx # Root layout wrapping with ThemeProvider
+└── index.css
+
 ---
 
 ## 🛠️ Tech Stack
