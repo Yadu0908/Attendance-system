@@ -10,6 +10,7 @@ A comprehensive web application designed for educational institutions to manage 
 
 ## Project Structure
 
+```text
 src/
 ├── context/
 │ └── ThemeContext.jsx # useContext for Theme (Dark/Light)
@@ -22,6 +23,7 @@ src/
 │ └── StudentView.jsx # Personal student breakdown & switcher
 ├── App.jsx # Root layout wrapping with ThemeProvider
 └── index.css
+```
 
 ---
 
